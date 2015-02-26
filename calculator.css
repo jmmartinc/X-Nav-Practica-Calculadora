@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	-moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select: none;
+	
+}
+
+#calculator {
+	width: 356px;
+	height: auto;
+	margin: 10px 10px;
+	padding: 20px 20px;
+	background: #232323;
+	border: #000000 1px solid;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.4) 0px 2px 5px, inset rgba(255,255,255,0.9) 0px 1px 1px -1px;
+	background:-moz-linear-gradient(top, #323232, #1e1e1e);
+	background:-webkit-linear-gradient(top, #323232, #1e1e1e);
+	background: linear-gradient(top, #323232, #1e1e1e);
+}
+
+#display {
+	width:334px;
+	height:64px;
+	margin-bottom: 18px;
+	padding: 0 10px;
+	color: #2e2e2e;
+	text-align: right;
+    vertical-align: middle;
+	line-height: 64px;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 30px;
+	letter-spacing: 2px;
+	border:#000 1px solid;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	box-shadow:inset rgba(0,0,0,1) 0px 1px 4px, inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+	-webkit-box-shadow:inset rgba(0,0,0,1) 0px 1px 4px, inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+	-moz-box-shadow:inset rgba(0,0,0,1) 0px 1px 4px, inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+	background: -moz-linear-gradient(top, #9e9e9e 0%, #909090 100%);
+	background: -webkit-linear-gradient(top, #9e9e9e 0%, #909090 100%);
+	background: linear-gradient(top, #9e9e9e 0%, #909090 100%);
+}
+
+button {
+	width: 68px;
+	height: 48px;
+	margin: 2px 0px;
+	color:#c0c0c0;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	outline: 0;
+	background-color:#2f2f2f;
+	background: -moz-linear-gradient(top, #353535 5%, #2e2e2e 100%);
+	background: -webkit-linear-gradient(top, #353535 5%, #2e2e2e 100%);
+	background: linear-gradient(top, #353535 5%, #2e2e2e 100%);
+	-webkit-box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+	-moz-box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+	box-shadow: inset rgba(255,255,255,0.1) 0px 1px 0px, inset rgba(0,0,0,0.2) 0px -2px 2px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: #000 1px solid;
+	cursor: pointer;
+}
+
+button.op {
+	background: -moz-linear-gradient(top, #30305e 5%, #262647 100%);
+	background: -webkit-linear-gradient(top, #30305e 5%, #262647 100%);
+	background: linear-gradient(top, #30305e 5%, #262647 100%);
+}
+
+button#clear{
+	background: -moz-linear-gradient(top, #5e3030 5%, #472626 100%);
+	background: -webkit-linear-gradient(top, #5e3030 5%, #472626 100%);
+	background: linear-gradient(top, #5e3030 5%, #472626 100%);
+}
+
+button#equal{
+	background: -moz-linear-gradient(top, #5e5e30 5%, #474726 100%);
+	background: -webkit-linear-gradient(top, #5e5e30 5%, #474726 100%);
+	background: linear-gradient(top, #5e5e30 5%, #474726 100%);
+}
+
+button.wide {
+	width: 140px;
+}
+
+button.tall {
+	float: right;
+	margin: 2px 0px;
+	height: 100px;
+}
+
+button:active {
+	-moz-box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
+	-webkit-box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
+	box-shadow: inset rgba(0,0,0,0.5) 0px 2px 8px;
+	background: -moz-linear-gradient(top, #2e2e2e 0%, #353535 100%);
+	background: -webkit-linear-gradient(top, #2e2e2e 0%, #353535 100%);
+	background: linear-gradient(top, #2e2e2e 0%, #353535 100%);
+}
+
+button.op:active {
+	background: -moz-linear-gradient(top, #262647 5%, #30305e 100%);
+	background: -webkit-linear-gradient(top, #262647 5%, #30305e 100%);
+	background: linear-gradient(top, #262647 5%, #30305e 100%);
+}
+
+button#clear:active {
+	background: -moz-linear-gradient(top, #472626 5%, #5e3030 100%);
+	background: -webkit-linear-gradient(top, #472626 5%, #5e3030 100%);
+	background: linear-gradient(top, #472626 5%, #5e3030 100%);
+}
+
+button#equal:active {
+	background: -moz-linear-gradient(top, #474726 5%, #5e5e30 100%);
+	background: -webkit-linear-gradient(top, #474726 5%, #5e5e30 100%);
+	background: linear-gradient(top, #474726 5%, #5e5e30 100%);
+}
