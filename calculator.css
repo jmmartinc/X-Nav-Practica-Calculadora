@@ -22,10 +22,10 @@ body {
 }
 
 #display {
-	width:334px;
+	width:326px;
 	height:64px;
 	margin-bottom: 18px;
-	padding: 0 10px;
+	padding: 0 14px;
 	color: #2e2e2e;
 	text-align: right;
     vertical-align: middle;
@@ -69,7 +69,7 @@ button {
 	cursor: pointer;
 }
 
-button.op {
+button.operator {
 	background: -moz-linear-gradient(top, #30305e 5%, #262647 100%);
 	background: -webkit-linear-gradient(top, #30305e 5%, #262647 100%);
 	background: linear-gradient(top, #30305e 5%, #262647 100%);
@@ -82,19 +82,15 @@ button#clear{
 }
 
 button#equal{
+	float: right;
+	height: 100px;
 	background: -moz-linear-gradient(top, #5e5e30 5%, #474726 100%);
 	background: -webkit-linear-gradient(top, #5e5e30 5%, #474726 100%);
 	background: linear-gradient(top, #5e5e30 5%, #474726 100%);
 }
 
-button.wide {
+button#zero {
 	width: 140px;
-}
-
-button.tall {
-	float: right;
-	margin: 2px 0px;
-	height: 100px;
 }
 
 button:active {
@@ -106,7 +102,7 @@ button:active {
 	background: linear-gradient(top, #2e2e2e 0%, #353535 100%);
 }
 
-button.op:active {
+button.operator:active {
 	background: -moz-linear-gradient(top, #262647 5%, #30305e 100%);
 	background: -webkit-linear-gradient(top, #262647 5%, #30305e 100%);
 	background: linear-gradient(top, #262647 5%, #30305e 100%);
